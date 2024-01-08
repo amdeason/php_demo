@@ -1,0 +1,20 @@
+{
+    "name": "deaso/php_demo",
+    "description": "php tutorial practice",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "monolog/monolog": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Deaso\\PhpDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrew Deason",
+            "email": "amdeason@proton.me"
+        }
+    ]
+}
